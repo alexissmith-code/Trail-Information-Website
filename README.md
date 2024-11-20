@@ -18,8 +18,9 @@ Includes user authentication through login, trail search functionality, adding o
 The "static" folder contains JavaScript files for handling user interactions and CSS for the styling across website.
 The "templates" folder contains HTML templates for the home page, creating an account, logging into an existing account, creating a new trail and putting it in a databse, updating an existing trail, and viewing trail information from one of the trails in the database, as well as a handling common webpage errors such as a 404 or 401 error.
 
-Once logged in or after creating an account you can use the search bar to find a specific trail and update it or you can create a new trail and then view that information. 
+Open HTML in preferred browser. Once logged in or after creating an account you can use the search bar to find a specific trail and update it or you can create a new trail and then view that information. 
 
 ### Author Information
 
+Alexis Smith
 LinkedIn: smithalexise
