@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Create{% endblock%}
+{% block content %}
+    <br>
+    <script src="/static/java.js"></script>
+    <form action='/create' method="POST" class="yellow_text" onsubmit="return validateForm()">
+        Name: <input type="text" name="name" id="name"><span id="nameError"></span><br>
+        Username: <input type="text" name="username" id="username"><span id="usernameError"></span><br>
+        Password: <input type="password" name="password" id="password"><span id="passwordError"></span><br>
+        <button type="submit">CREATE</button>
+    </form>
+    {% if error_message %}
+    <p style="color: red;">{{ error_message }}</p>
+    {% endif %}
+{% endblock %}
