@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}View{% endblock%}
+{% block content %}
+<br>
+<h1>Users</h1>
+   <table>
+    <thead>
+        <tr>
+             <td>Name</td>
+             <td>Username</td>
+             <td>Password</td>
+        </tr>
+     </thead>
+     <tbody>
+        {% for user in usersearch %}
+             <tr>
+                 <td>{{ user.name}}</td>
+                 <td>{{ user.username }}</td>
+                 <td>{{ user.password }}</td>
+                 <td><a href="/delete/user/{{ user.id }}">Delete</a></td>
+             </tr>
+         {% endfor %}
+     </tbody>
+   </table>
+   <h2>Trails</h2>
+   <table>
+    <thead>
+        <tr>
+             <td>Trail Name</td>
+             <td>Miles</td>
+             <td>Difficulty</td>
+        </tr>
+     </thead>
+     <tbody>
+        {% for trail in trailsearch %}
+             <tr>
+                 <td>{{ trail.trail_name}}</td>
+                 <td>{{ trail.miles }}</td>
+                 <td>{{ trail.difficulty }}</td>
+                 <td><a href="/delete/trail/{{ trail.id }}">Delete</a></td>
+             </tr>
+         {% endfor %}
+     </tbody>
+   </table>
+
+{% endblock %}
