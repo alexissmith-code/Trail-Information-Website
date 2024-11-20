@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}401{% endblock%}
+{% block content %}
+<h1>401!</h1>
+<p>Your browser could not authroize that you access to URL. You have either provided the wrong credentials or your browser can not support. Please try logging in or creating account to continue </p>
+{%if err %}
+    {{ err }}
+{% endif %}
+{% endblock %}
