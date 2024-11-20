@@ -13,13 +13,13 @@ Database: SQLAlchemy (Python).
 Template Engine: Jinja2 (embedded in Flask).
 Includes user authentication through login, trail search functionality, adding or updating an existing mountain bike trail, and error handling with templates that match style of the rest of the website. 
 
-###Usage and Instructions
+### Usage and Instructions
 
 The "static" folder contains JavaScript files for handling user interactions and CSS for the styling across website.
 The "templates" folder contains HTML templates for the home page, creating an account, logging into an existing account, creating a new trail and putting it in a databse, updating an existing trail, and viewing trail information from one of the trails in the database, as well as a handling common webpage errors such as a 404 or 401 error.
 
 Once logged in or after creating an account you can use the search bar to find a specific trail and update it or you can create a new trail and then view that information. 
 
-###Author Information
+### Author Information
 
 LinkedIn: smithalexise
