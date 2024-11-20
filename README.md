@@ -1,9 +1,9 @@
 # Trail-Information-Website
-Website that allowed a user to login or create an account in order to view mountain bike trails and information on them. Once logged in the user can update or add new trails or view trails and information about them using a search bar. 
+Final project for CS 250: Web Development I
 
 ## Description
 
-Once logged in the user can update or add new trails or view trails and information about them using a search bar. Utilizes both front-end and back-end elements, including the utilization of CSS and HTML for page structure and style, and the incorporation of Python Flask and embedded JavaScript languages for user interaction.
+Wesbite that allows user once logged in or after creating an account to update or add new trails or view trails and information about them using a search bar. Utilizes both front-end and back-end elements, including the utilization of CSS and HTML for page structure and style, and the incorporation of Python Flask and embedded JavaScript languages for user interaction.
 
 ### Dependencies and Technology
 
