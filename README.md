@@ -7,10 +7,10 @@ Once logged in the user can update or add new trails or view trails and informat
 
 ### Dependencies and Technology
 
-Back-end: Python, Flask, Flask-SQLAlchemy
-Front-end: HTML, CSS, JavaScript 
-Database: SQLAlchemy (Python ORM)
-Template Engine: Jinja2 (embedded in Flask)
+Back-end: Python, Flask, Flask-SQLAlchemy.
+Front-end: HTML, CSS, JavaScript.
+Database: SQLAlchemy (Python).
+Template Engine: Jinja2 (embedded in Flask).
 Includes user authentication through login, trail search functionality, adding or updating an existing mountain bike trail, and error handling with templates that match style of the rest of the website. 
 
 ###Usage and Instructions
