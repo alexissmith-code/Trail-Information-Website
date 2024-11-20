@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}New{% endblock%}
+{% block content %}
+<br>
+<script src="/static/java.js"></script>
+    <form action='/new' method="POST" class="yellow_text" onsubmit="return validateForm()">
+        Trail Name: <input type="text" name="trail_name" id="trail_name"><span id="trailNameError"></span><br>
+        Miles: <input type="number" name="miles" id="miles"><span id="milesError"></span><br>
+        Difficulty: <select name="difficulty" id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="expert">Expert</option>
+        </select><br>
+        <button type="submit">CREATE</button>
+    </form>
+    {% if error_message %}
+    <p style="color: red;">{{ error_message }}</p>
+    {% endif %}
+{% endblock %}
+
