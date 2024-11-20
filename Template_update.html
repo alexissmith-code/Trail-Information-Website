@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Update{% endblock%}
+{% block content %}
+<br>
+<form action='/update' method="POST" class="yellow_text">
+    Current Trail: <input type="text" name="trail_name"><br>
+    New Trail Name: <input type="text" name="newTrail_name"><br>
+    New Trail Mileage: <input type="number" name="newmiles"><br>
+    New Trail Difficulty: <select name="newdifficulty">
+        <option value="easy">Easy</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="expert">Expert</option>
+    </select><br>
+    <button type="submit">UPDATE</button>
+</form>
+    {% if error_message %}
+    <p style="color: red;">{{ error_message }}</p>
+    {% endif %}
+{% endblock %}
